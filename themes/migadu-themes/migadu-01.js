@@ -10,9 +10,6 @@
 // @grant        None
 // ==/UserScript==
 
-var AUTHOR_NAME = "Vishal Chopra";
-
-
 function addGlobalStyle(css) {
     var head, style;
     head = document.getElementsByTagName('head')[0];
@@ -30,8 +27,4 @@ addGlobalStyle('.thm-folders .e-link.selectable:hover {color: #444 !important;ba
 addGlobalStyle('.messageList .b-message-list-wrapper{box-shadow: 0 0px 0px rgba(0,0,0,0.2);-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2); border: 1px solid #e2e2e2 !important;}')
 addGlobalStyle('.messageView .b-content, .messageView.message-focused .b-content {box-shadow: 0 0px 0px rgba(0,0,0,0.2) !important; border: 1px solid #e2e2e2 !important;}')
 addGlobalStyle('.b-settins-right .b-content{-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2) !important; box-shadow: 0 0px 0px rgba(0,0,0,.2); border: 1px solid #f1f1f1 !important;}')
-
-
-// JavaScript DOM Manipulate
-document.querySelector('#rl-right > div:nth-child(3) > div > div > div > div.accountPlace.pull-right.hide-on-mobile').innerText = "Howdy, " + AUTHOR_NAME;
 
