@@ -1,13 +1,13 @@
 // Migadu theme 01
 // ==UserScript==
 // @name         Migadu Theme 01
-// @namespace    
+// @namespace    None
 // @version      Version Death
 // @description  A theme for Migadu
 // @match        https://webmail.migadu.com/*
 // @author       CodeWithVishal
-// @icon         
-// @grant        none
+// @icon         None
+// @grant        None
 // ==/UserScript==
 
 function addGlobalStyle(css) {
