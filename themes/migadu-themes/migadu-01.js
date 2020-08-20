@@ -19,3 +19,4 @@ function addGlobalStyle(css) {
     style.innerHTML = css;
     head.appendChild(style);
 }
+addGlobalStyle('body { background-color : #333 !important; }');
