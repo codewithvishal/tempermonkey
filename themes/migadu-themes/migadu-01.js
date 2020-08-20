@@ -19,4 +19,6 @@ function addGlobalStyle(css) {
     style.innerHTML = css;
     head.appendChild(style);
 }
-addGlobalStyle('body { background-color : #333 !important; }');
+addGlobalStyle('body { font-family : Ubuntu !important; }');
+addGlobalStyle('.thm-folders .e-link.selectable.selected { color: #d93025 !important; background-color: #fce8e6 !important; border-radius: 0 20px 20px 0;}');
+addGlobalStyle('html.ssm-state-desktop #rl-right {left: 225px;}')
